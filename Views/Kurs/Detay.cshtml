@@ -1,0 +1,20 @@
+﻿@{
+}
+@model Kurs
+
+<div class="card">
+    <div class="card-header">
+        <b> @Model.Ders </b>
+    </div>
+    <div class="card-body">
+        <ul>
+            <li>Grup Kodu : @Model.GrupKodu</li>
+            <li>Sınıf Kapasitesi : @Model.Kapasite</li>
+        </ul>
+    </div>
+    <div class="card-footer text-end">
+        <a href="/Kurs/Sil/@Model.Id" class="btn btn-danger">Sil</a>
+        <a href="/Kurs/Guncelle/@Model.Id" class="btn btn-secondary">Güncelle</a>
+    </div>
+</div>
+</div>

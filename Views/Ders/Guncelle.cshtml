@@ -1,0 +1,17 @@
+﻿@{
+}
+@model Ders
+
+<h3>Ders Guncelle</h3>
+<hr />
+<form class="mt-3" action="/Ders/Guncelle" method="post">
+    <div class="mb-3">
+        <label class="form-label">ID No</label>
+        <input type="text" class="form-control" asp-for="Id">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ders Adı</label>
+        <input type="text" class="form-control" asp-for="Adi">
+    </div>
+    <button type="submit" class="btn btn-primary">Guncelle</button>
+</form>

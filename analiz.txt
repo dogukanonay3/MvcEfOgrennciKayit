@@ -1,0 +1,18 @@
+Kurs - Bilgeadam
+
+Öğrenci - crud
+----------------------------
+Öğrenci kaydetmek
+Öğrenci silmek
+Öğrenci güncellemek
+Öğrenci listelemek
+
+
+Kurs - crud
+----------------
+Kurs oluştur / güncelle
+Kurs listele
+Kurs sil
+
+
+Kursa öğrenci ata - kursogrenci

@@ -1,0 +1,22 @@
+﻿
+@{
+} 
+@model Kurs
+<h3>Kurs ekle</h3>
+
+<form class="mt-3" action="/Kurs/Ekle" method="post">
+    <div class="mb-3">
+        <label class="form-label">Grup Kodu</label>
+        <input type="text" class="form-control" asp-for="GrupKodu">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Kapasite</label>
+        <input type="text" class="form-control" asp-for="Kapasite">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">DersId</label>
+        <input type="text" class="form-control" asp-for="DersId">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

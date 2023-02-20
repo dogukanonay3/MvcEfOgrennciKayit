@@ -1,0 +1,18 @@
+﻿@{
+}
+@model Ders
+<div class="card">
+    <div class="card-header">
+        <b> @Model.Adi </b>
+    </div>
+    <div class="card-body">
+        <ul>
+            <li>Id No: @Model.Id</li>
+            <li>Ders Adı: @Model.Adi</li>
+        </ul>
+    </div>
+    <div class="card-footer text-end">
+        <a href="/Ders/Sil/@Model.Id" class="btn btn-danger">Sil</a>
+        <a href="/Ders/Guncelle/@Model.Id" class="btn btn-secondary">Güncelle</a>
+    </div>
+</div>
